@@ -122,9 +122,9 @@ h5{
 }
 
 @media screen and (min-width:1000px){
-.entry-content {
-	font-size: 1.0em;
-	line-height: 2em;
+	.entry-content {
+		font-size: 1.0em;
+		line-height: 2em;
  }
 .entry-list--card .entry-list--card-3  {
 	width: 33.3%;
@@ -140,10 +140,10 @@ h5{
 }
 
 @media screen and (max-width: 600px){
-.entry__footer-title{
-	padding: 0;
-	text-align: center;
-	letter-spacing: 0.1em;
+	.entry__footer-title{
+		padding: 0;
+		text-align: center;
+		letter-spacing: 0.1em;
 }
 }
 
@@ -157,7 +157,7 @@ h5{
 
 .widget-title{
 	padding: 0;
-  border-left: none;
+	border-left: none;
 	font-size: 1.1em;
 	font-weight: normal;
 	letter-spacing: 0.15em;
@@ -246,7 +246,7 @@ h5{
 }
 
 @keyframes slidebg {
-  to {
+	to {
 		background-position:6000px;
   }
 }
