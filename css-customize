@@ -1,0 +1,266 @@
+/*サイト微調整*/
+
+body {
+letter-spacing: 0.05em;
+line-height: 1.7em;
+font-family: YuGothic, 游ゴシック体, Yu Gothic, 游ゴシック, Yu Gothic Medium, 游ゴシック Medium, Hiragino Sans, ヒラギノ角ゴシック, メイリオ, Meiryo, ＭＳ\ Ｐゴシック,sans-serif;
+font-weight: 500;
+text-align: justify;
+}
+
+.ys-post-list__title{
+color: #4f4f4f;
+}
+
+a{
+text-decoration: none;
+}
+
+main hr{
+height: 1px;
+border: 0;
+background-image: -webkit-linear-gradient(left, #ddcf9f, #ccb1c9, #cdddc1, #ddcf9f);
+background-image: -moz-linear-gradient(left, #ddcf9f, #ccb1c9, #cdddc1, #ddcf9f);
+background-image: -ms-linear-gradient(left, #ddcf9f, #ccb1c9, #cdddc1, #ddcf9f);
+background-image: -o-linear-gradient(left, #ddcf9f, #ccb1c9, #cdddc1, #ddcf9f);
+}
+
+h1{
+color: #666;
+font-size: 1.5em;
+line-height: 2em;
+}
+
+h2{
+padding: 0.25em 1em;/*上下 左右の余白*/
+background: transparent;/*背景透明に*/
+border-left: solid 2px #bc9ca2;/*左線*/
+color: #bc9ca2;
+font-size: 1.5em;
+line-height: 2em;
+font-weight: 500;
+}
+
+h3{
+color: #778999;
+font-size: 1.2em;
+font-weight: 500;
+}
+
+h4{
+color: #cdddc1;
+font-size: 1.2em;
+font-weight: 500;
+}
+
+h5{
+color: #ddcf9f;
+font-size: 1.2em;
+font-weight: 500;
+}
+
+@media screen and (min-width:600px){
+	.ratio__image {
+    width: 100%;
+    height: 100%;
+}
+.entry-list__link {
+width: 100%;
+height: 197px;
+}
+}
+
+.archive__title {
+font-size: 1em;
+font-weight: normal;
+letter-spacing: 0.15em;
+}
+
+.archive__header {
+padding: 0;
+}
+
+.site__info {
+font-size: 0.6em;
+letter-spacing: 0.2em;
+line-height: 1.5em;
+}
+
+.footer-sns__link {
+height: 2.5em;
+width: 2.5em;
+margin: 5px;
+border-radius: 100%;
+font-size: 1.2em;
+overflow: hidden;
+}
+
+.site__footer {
+padding: 40px 0px 30px 0;
+}
+
+@media screen and (max-width:600px){
+	.entry-content{
+	font-size: 0.8em;	
+	}
+}
+
+@media screen and (min-width:1000px){
+.entry-content {
+	font-size: 1.0em;
+	line-height: 2em;
+ }
+.entry-list--card .entry-list--card-3  {
+  width: 33.3%;
+ }
+}
+
+.entry__footer-title{
+font-size: 0.7em;
+padding: 0px 0px 0px 25px;
+letter-spacing: 0.1em;
+color: #666;
+border-left: none;
+}
+
+@media screen and (max-width: 600px){
+.entry__footer-title{
+padding: 0;
+text-align: center;
+letter-spacing: 0.1em;
+}
+}
+
+.comment-reply-title{
+font-size: 0.8em;
+}
+
+.global-nav__btn {
+margin: 15px 0px 0px 0px;
+}
+
+.widget-title{
+	padding: 0;/*上下 左右の余白*/
+  border-left: none;/*左線*/
+	font-size: 1.1em;
+	font-weight: normal;
+	letter-spacing: 0.15em;
+	color: #ddcf9f;
+}
+
+.author__img {
+	width: 150px;
+}
+
+@media screen and (max-width: 1000px)
+{.entry-list--card .entry-list--card-3 {
+    width: 50%;
+}
+}
+
+@media screen and (max-width: 600px)
+{.entry-list--card .entry-list--card-3 {
+    width: 100%;
+}
+}
+
+.image-mask {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: transparent;
+	color: transparent;
+	font-size: 1.2em;
+	letter-spacing: 0.1em;
+	font-weight: normal;
+	z-index: -1;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+
+.image-mask__text {
+	margin: 0;
+}
+
+.image-mask__wrap {
+	position: relative;
+}
+
+.image-mask__wrap:hover .image-mask {
+	background-image: linear-gradient(90deg, rgba(255, 255, 0, 0.05) 0%, rgba(0, 255, 255, 0.05) 25%, rgba(0, 0, 255, 0.05) 50%, rgba(255, 0, 255, 0.05) 75%, rgba(255, 255, 0, 0.05) 100%);
+	background-color: rgba(255, 255, 255, 0.6);
+	color: #fff;
+	text-shadow: 0px 0px 30px #7B6B7D;
+	z-index: 2;
+	animation:slidebg 30s linear infinite;
+	background-position: 215px;
+}
+
+
+/*オリジナルボタン*/
+
+.fragment-button {
+  width:300px;
+  height:100%;
+  background-image: linear-gradient(90deg, #ddcf9f 0%, #ccb1c9 49%, #cdddc1 80%, #ddcf9f 100%);
+  border-radius:3px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:1.2em;
+	text-decoration: none;
+	margin: auto;
+}
+.fragment-button:after {
+  content:attr(title);
+  margin: 3px;
+  width:100%;
+  height:38px;
+  background-color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color: #a9a9a9;
+  border-radius:3px;
+}
+.fragment-button:hover {
+animation:slidebg 30s linear infinite;
+}
+
+@keyframes slidebg {
+  to {
+  background-position:6000px;
+  }
+}
+
+.ys-btn{
+margin: auto;
+width: auto;
+height:40px;
+background-color:#fff;
+color: #778999;
+border-radius:3px;
+border: 1px solid #778999;
+font-size: 1em;
+}
+
+.ys-btn:hover {
+color: #fff;
+background-color: #778999;
+}
+
+
+/*オリジナルボックス*/
+
+.fragment-box1 {
+padding: 0.5em 1em;
+margin: 2em 0;
+border: solid 1px #778999;
+}
+.fragment-box1 p {
+margin: 25px; 
+padding: 0;
+}
+
