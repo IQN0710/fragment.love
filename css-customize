@@ -1,5 +1,3 @@
-/*vsc*/
-
 /*サイト微調整*/
 
 body {
@@ -8,7 +6,10 @@ body {
 	font-family: YuGothic, 游ゴシック体, Yu Gothic, 游ゴシック, Yu Gothic Medium, 游ゴシック Medium, Hiragino Sans, ヒラギノ角ゴシック, メイリオ, Meiryo, ＭＳ\ Ｐゴシック,sans-serif;
 	font-weight: 500;
 	text-align: justify;
+	text-justify: inter-ideograph; 
 }
+
+/*edge用に text-justify:inter-ideograph; をつける*/
 
 .ys-post-list__title{
 	color: #4f4f4f;
@@ -16,6 +17,12 @@ body {
 
 a{
 	text-decoration: none;
+	color: #778999;
+}
+
+a:hover{
+	text-decoration: none;
+	color: #ddcf9f;
 }
 
 main hr{
@@ -258,7 +265,7 @@ h5{
 .fragment-box1 {
 	padding: 0.5em 1em;
 	margin: 2em 0;
-	border: solid 1px #778999;
+	border: solid 1px #ddcf9f;
 }
 .fragment-box1 p {
 	margin: 25px; 
