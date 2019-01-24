@@ -272,3 +272,9 @@ h5{
 	padding: 0;
 }
 
+/*最新の投稿用微調整*/
+
+.rpwe-title a {
+	font-size: 1.2em;	
+}
+
